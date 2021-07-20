@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <!-- auto -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom -->
+    <title>BEM-101(2) / site : css-tircks.com<</title>
+    <style>
+        .btn{ /* Block */
+            /* design */
+            margin: 10px;
+            padding: 10px 5px;
+            background-color: white;
+            /* font */
+            color: #888;
+            font-size: 18px;
+            font-weight: 600px;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 5px;
+            /* display */
+            display: inline-block;
+        }
+
+        .btn__price { /* Elements */
+            /* design */
+            margin-right: -10px; /* realign button text padding */
+            padding-right: 12px;
+            padding-left: 12px;
+            opacity: .4;
+            border-radius: 5px 0 0 5px;
+            background-color: white;
+            background-color: #333;
+            /* font */
+            color: #fff;
+            font-weight: 600;
+            /* display */
+        }
+        .btn__text { /* Elements */
+            /* design */
+            padding: 0 10px; /*위,아래 0px 좌,우 10px*/
+            border-radius: 0 5px 5px 0; /*위 0px, 우 10px, 아래 0px, 좌 10px*/
+            /* font */
+            /* display */
+        }
+
+        .btn--big{ /* Modifier */
+            /* design */
+            padding: 10px;
+            /* font */
+            font-size: 28px;
+            font-weight: 400;
+            /* display */
+        }
+        .btn--blue{ /* Modifier */
+            /* design */
+            color: white;
+            /* font */
+            border-color: lightskyblue;
+            background-color: lightskyblue;
+            /* display */
+        }
+        .btn--orange{ /* Modifier */
+            /* design */
+            color: white;
+            /* font */
+            border-color: lightpink;
+            background-color: lightpink;
+            /* display */
+        }
+        .btn--green{ /* Modifier */
+            /* design */
+            color: white;
+            /* font */
+            border-color: lightgreen;
+            background-color: lightgreen;
+            /* display */
+        }
+        body {
+          /* design */
+          font-family: "배달의민족 도현", sans-serif;
+          background-color: lightgrey;
+          /* font */
+          /* display */
+          display:flex;
+          align-items: center;
+          justify-content: center;
+        }
+    </style>
+    
+</head>
+<body>
+  <div>
+    <a href="https://css-tricks.com/bem-101/" class="btn">
+      <span class="btn__text">Standard button</span>
+    </a>
+    <a href="https://css-tricks.com/bem-101/" class="btn btn--big btn--orange">
+      <span class="btn__price">$1</span>
+      <span class="btn__text">Big Button</span>
+    </a>
+    <a href="https://css-tricks.com/bem-101/" class="btn btn--big btn--blue">
+      <span class="btn__price">$1</span>
+      <span class="btn__text">Big Button</span>
+    </a>
+    <a href="https://css-tricks.com/bem-101/" class="btn btn--big btn--green">
+      <span class="btn__price">$1</span>
+      <span class="btn__text">Big Button</span>
+    </a>
+  </div>
+</body>
+</html>
+
+
+

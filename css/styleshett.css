@@ -1,0 +1,49 @@
+@import "reset.css";
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* profile */
+#profile_link {
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+/* position */
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.position-fixed {
+  position: fixed;
+}
+/* settings color */
+.back-inherit {
+  background-color: inherit;
+}
+.back-olive {
+  padding: 5px;
+  width: 500px;
+  height: auto;
+  background-color: rgb(149, 149, 98);
+
+  text-align: center;
+}
+/* display */
+.index {
+  padding: 5vh 5vw;
+}
+.index__clmn {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.index__clmn__clmn {
+  border-radius: 15px;
+}
+.index__clmn__clmn > p {
+  color: rgb(211, 211, 188);
+}

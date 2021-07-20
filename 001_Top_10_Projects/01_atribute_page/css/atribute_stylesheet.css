@@ -1,0 +1,28 @@
+/* reset */
+@import "reset.css";
+/* root */
+@import "root.css";
+/* single */
+@import "atribute_index.css";
+@import "atribute_container.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* profile */
+#profile_link {
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+/* position */
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.position-fixed {
+  position: fixed;
+}
