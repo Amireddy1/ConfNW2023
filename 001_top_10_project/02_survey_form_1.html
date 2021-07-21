@@ -8,22 +8,98 @@
         <title>00 - page name</title>
         <link rel="stylesheet" href="02_survey_form_1/css/stylesheet.css"/>
     </head>
-    <body class="position-relative">
-        <main>
-            <div class="index-div">
-                <div class="index__clmn">
-                    div.index__clmn__clmn*7
+    <body class="position-relative back-yellow">
+        <!-- neccassry -->
+        <div id="profile_link" class="position-absolute">
+            <strong> Created by Unchaptered</strong><br>
+            <address>
+                <a href="https://github.com/Unchaptered"> Uncaphtered (Git)</a>
+                <a href="D:/Code%20-%20GitHub%20Dessktop(Repository)/practice_2021_Web/index.html"> Go to back</a>
+            </address>
+        </div>
+
+        <form class="index-main">
+            <div class="index-div ">
+                <div class="index__clmn ">
+                    <div class="index__clmn__clmn back-wheat">
+                        <p id="index-title">데이트 신청 어플리케이션</p>
+                    </div>
+                    <div class="index__clmn__clmn back-wheat">
+                        <p id="index-subtitle"><strong>Note:</strong> Form is to be completed at least 21 days prior to date</p>
+                    </div>
+                    <div class="index__clmn__clmn back-wheat position-relative">
+                        <span id="index__clmn__clmn-title" class="position-absolute"><strong>Personal Detials</strong></span>
+                        <div class="index-input__box">
+                            <label for="personal__date">Dating date:</label>
+                            <input id="personal__date" type="date" name="bday" required>
+                        </div>
+                        <div class="index-input__box">
+                            <label for="personal__name">Name: </label>
+                            <input id="personal__name" type="text" placeholder="Enter name here" required>
+                        </div>
+                        <div class="index-input__box">
+                            <label for="personal__address">Address: </label>
+                            <input id="personal__address" type="text" placeholder="Enter address here" required>
+                        </div>
+                        <div class="index-input__box">
+                            <label for="personal__email">Email: </label>
+                            <input id="personal__email" type="text" placeholder="Eneter email here" required>
+                        </div>
+                        <div class="index-input__box">
+                            <label for="personal__number">Phone: </label>
+                            <input id="personal__number" type="text" placeholder="Enter 10 digit number" required>
+                        </div>
+                        <div class="index-input__box">
+                            <label for="personal__iq">IQ: </label>
+                            <input id="personal__iq" type="text" placeholder="Enter IQ here" required>
+                        </div>
+                        <div class="gender">
+                            <p id="personal__group-gender"> Gender </p>
+                        </div>
+                        <div class="index-input__box">
+                            <input type="radio" name="gender" value="male" checked> Male
+                        </div>
+                        <div class="index-input__box">
+                            <input type="radio" name="gender" value="female"> Female
+                        </div>
+                        <div class="index-input__box">
+                            <input type="radio" name="gender" value="other"> Other
+                        </div>
+                    </div>
+                    <div class="index__clmn__clmn back-wheat">
+                        <P id="index__clmn__clmn-title">Check All That Apply</P>
+                        <p id="index__clmn__clmn-choice">
+                            <input type="checkbox" name="gender__tatto" value="g-value__tatoo"> I have tattoos and/or piercings<br>
+                            <input type="checkbox" name="gender__age" value="g-value__age"> I am more than 2 years older than my daughter<br>
+                            <input type="checkbox" name="gender__car" value="g-value__car"> I own a panel van or V8 ute<br>
+                            <input type="checkbox" name="gender__work" value="g-value__work"> I work full-time<br>
+                            <input type="checkbox" name="gender__rich" value="g-value__rich"> My parents are rich<br>
+                            <input type="checkbox" name="gender__loc" value="g-value__loc"> Is the date at a well lit public location<br>
+                        </p>
+                    </div>
+                    <div class="index__clmn__clmn back-wheat">
+                        <label for="politics">Political Persuasion:</label>
+                        <select id="dropdown1">
+                            <option value="dropdown1_left">Left Wing</option>
+                            <option value="dropdown1_right">Right Wing</option>
+                            <option value="dropdown1_Conservative">Conservative</option>
+                            <option value="dropdown1_Nazi">Nazi</option>
+                        </select><br>
+                        <label for="politics">Last Educated:</label>
+                        <select id="dropdown2">
+                            <option value="dropdown2_University">University</option>
+                            <option value="dropdown2_College">College</option>
+                            <option value="dropdown2_Secondary">High School</option>
+                            <option value="dropdown2_None">None</option>
+                        </select>
+                    </div>
+                    <div class="index__clmn__clmn back-wheat">
+                        <button type="submit" id="submit">Send your application</button>
+                    </div>
                 </div>
             </div>
-            <!-- neccassry -->
-            <div id="profile_link" class="position-absolute">
-                <strong> Created by Unchaptered</strong><br>
-                <address>
-                    <a href="https://github.com/Unchaptered"> Uncaphtered (Git)</a>
-                    <a href="D:/Code%20-%20GitHub%20Dessktop(Repository)/practice_2021_Web/index.html"> Go to back</a>
-                </address>
-            </div>
-        </main>
+            
+        </form>
         <script src="js/base.js"></script>
     </body>
 </html>
