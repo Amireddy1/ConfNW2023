@@ -1,0 +1,12 @@
+/* reset */
+@import "reset.css";
+/* root */
+@import "root.css";
+/* components */
+@import "components/position.css";
+/* single */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* profile */

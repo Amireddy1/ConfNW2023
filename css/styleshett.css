@@ -36,6 +36,7 @@ body {
   padding: 5vh 5vw;
 }
 .index__clmn {
+  margin: 5px 0;
   display: flex;
   text-align: center;
   align-items: center;
