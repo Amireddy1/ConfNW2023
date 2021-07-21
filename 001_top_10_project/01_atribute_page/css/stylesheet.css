@@ -3,8 +3,8 @@
 /* root */
 @import "root.css";
 /* single */
-@import "atribute_index.css";
-@import "atribute_container.css";
+@import "index.css";
+@import "container.css";
 
 body {
   font-family: "Open Sans", sans-serif;
