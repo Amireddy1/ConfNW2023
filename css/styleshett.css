@@ -25,13 +25,20 @@ body {
 }
 .back-olive {
   padding: 5px;
-  width: 500px;
-  height: auto;
+  width: 400px;
+  height: 40px;
   background-color: rgb(149, 149, 98);
-
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 /* display */
+
+.more__clmn {
+  display: flex;
+}
 .index {
   padding: 5vh 5vw;
 }
