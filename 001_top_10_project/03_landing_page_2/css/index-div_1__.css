@@ -1,0 +1,34 @@
+/* first */
+#index-div_1 {
+  /* padding */
+  /* size */
+  width: 100vw;
+  height: 75vh;
+  /* design */
+  background-color: rgb(128, 166, 236);
+  /* display */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#index-div_1-title {
+  /* margin */
+  margin: 0 0 10px 0;
+  /* font */
+  font-size: 27px;
+  font-weight: 600;
+  /* shadow */
+  text-shadow: 0.5px 0 var(--shdow-div_1-title--),
+    -0.5px 0 var(--shdow-div_1-title--), 0 0.5px var(--shdow-div_1-title--),
+    0 -0.5px var(--shdow-div_1-title--);
+}
+#index-div_1-description,
+#index-div__clmn__clmn-description_1,
+#index-div__clmn__clmn-description_2 {
+  /* font */
+  font-size: 17px;
+  font-weight: 600;
+  /* display */
+  display: block;
+}

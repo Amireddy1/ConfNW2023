@@ -1,0 +1,29 @@
+#index-div_6 {
+  width: 100vw;
+}
+#index-div_6 > footer {
+  /* margin */
+  /* design */
+  background-color: var(--div_6-back--);
+  /* display */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* animation */
+  transition: background-color 0.7s ease;
+}
+#index-div_6 > footer:hover {
+  opacity: 0.7;
+  background-color: var(--div_6-hover--);
+}
+#index-div_6 > footer > p {
+  /* margin */
+  margin: 50px 0;
+  /* font */
+  color: var(--div_6-color-basic--);
+}
+#Traversy-link {
+  /* font */
+  color: var(--div_6-color-link--);
+  text-decoration: none;
+}

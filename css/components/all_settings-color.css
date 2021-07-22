@@ -1,0 +1,19 @@
+/* settings-color */
+.back-inherit {
+  background-color: inherit;
+}
+.back-olive {
+  /* size */
+  width: 400px;
+  height: 40px;
+  /* padding */
+  padding: 5px;
+  /* design */
+  background-color: none;
+  /* display */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
