@@ -1,0 +1,17 @@
+/* reset */
+@import "reset.css";
+/* root */
+@import "root.css";
+/* components */
+@import "components/back.css";
+@import "components/profile.css";
+@import "components/position.css";
+/* single */
+@import "index.css";
+
+body {
+  padding: inherit;
+  margin: inherit;
+  font-family: "Open Sans", sans-serif;
+}
+/* profile */
