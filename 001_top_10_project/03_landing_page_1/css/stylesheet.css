@@ -2,12 +2,15 @@
 @import "reset.css";
 /* root */
 @import "root.css";
+/* animaiton */
+@import "animation/animation_button.css";
 /* components */
 @import "components/back.css";
 @import "components/profile.css";
 @import "components/position.css";
 /* single */
 @import "index.css";
+@import "root_custom.css";
 
 body {
   /* size */
@@ -17,8 +20,9 @@ body {
   padding: inherit;
   margin: inherit;
   /* font */
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", "Bernard MT", sans-serif;
   /* display */
   display: flex;
+  flex-direction: column;
 }
 /* profile */
