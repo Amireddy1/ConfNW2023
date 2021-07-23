@@ -1,0 +1,114 @@
+.sub_header {
+  width: 100vw;
+  min-height: 50vh;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightgrey;
+}
+.sub_header__clmn {
+  /* width */
+  width: 100vw;
+  height: auto;
+  /* design */
+  /* display */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sub_header__clmn-box {
+  margin: 0;
+  /* size */
+  height: 185px;
+  /* design */
+  background-color: white;
+  /* border */
+  border: var(--border--);
+  border-radius: var(--border-radius--);
+  /* display */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sub_header__clmn-box > div {
+  /* size */
+  /* display */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sub_header__clmn-box > div > p {
+  font-size: 15px;
+}
+.sub_header__clmn-box > div > .sub_header__box-title {
+  font-size: 25px;
+}
+.sub_header__icon-sizing {
+  width: 60px;
+  height: 60px;
+}
+@media screen and (max-width: 501px) {
+  /* 1+1+1+1 정렬 비율 변경 */
+  /* 1+1+1+1 정렬 justify-content:  방향 반영; */
+  .sub_header__clmn-box {
+    min-width: 100%;
+    width: 100%;
+    justify-content: center;
+    /* margin */
+    margin-bottom: 10px;
+  }
+  .sub_header__clmn-box:nth-child(4) {
+    /* margin */
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 756px) {
+  /* 2+2 정렬 비율 변경 */
+  /* 2+2 정렬 justify-content 방향 변경 */
+  .sub_header__clmn {
+    height: 380px;
+  }
+  .sub_header__clmn-box {
+    min-width: 49%;
+    width: 49%;
+    justify-content: center;
+    /* margin */
+    margin-bottom: 10px;
+  }
+  .sub_header__clmn-box:nth-child(3),
+  .sub_header__clmn-box:nth-child(4) {
+    /* margin */
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 756px) and (max-width: 977px) {
+  /* 3+1 정렬 비율 변경 */
+  /* 3+1 정렬 justify-content 방향 변경 */
+  .sub_header__clmn {
+    height: 380px;
+  }
+  .sub_header__clmn-box {
+    min-width: 32.5%;
+    width: 32.5%;
+    justify-self: center;
+    /* margin */
+    margin-bottom: 10px;
+  }
+  .sub_header__clmn-box:nth-child(4) {
+    /* margin */
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 977px) and (max-width: 2000px) {
+  .sub_header__clmn {
+    height: 185px;
+  }
+  .sub_header__clmn-box {
+    min-width: 24%;
+    width: 24%;
+    justify-self: center;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,32 @@
+.adv_header__clmn-box {
+  /* size */
+  width: 100%;
+  /* height: 높이에 맞춰서 별도 설정; */
+  /* design */
+  background-color: white;
+  /* border */
+  border: var(--border--);
+  border-radius: var(--border-radius--);
+}
+@media screen and (max-width: 756px) {
+  .adv_header__icon-size {
+    /* size % 조정 설정 필요 */
+    display: none;
+    visibility: hidden;
+  }
+  .adv_header__clmn-box {
+    height: 300px;
+    background-color: red;
+  }
+  /* 이미지 + 글자가 수직 정렬 */
+}
+@media screen and (min-width: 756px) {
+  .adv_header__icon-size {
+    width: 300px;
+    height: 200px;
+  }
+  .adv_header__clmn-box {
+    height: 400px;
+  }
+  /*  이미지 + 글자가 가로 정렬 */
+}

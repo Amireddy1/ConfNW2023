@@ -9,28 +9,23 @@
 /* menu */
 .nav_topbar {
   /* position */
-  position: absolute;
-  top: 0;
   /* size */
   width: 100vw;
   min-height: 10vh;
   height: auto;
-  background-color: slateblue;
-}
-.nav_topbar-margin {
-  margin: 5vh 5vw;
+  display: flex;
+  flex-wrap: wrap;
 }
 .nav_topbar__clmn {
   /* margin */
   /* size */
-  width: 100%;
+  width: 90vw;
   /* design */
   /* display */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: left;
-  background-color: blue;
 }
 .nav_topbar__clmn > p {
   /* margin */
@@ -62,7 +57,7 @@
   .position-re_2 {
     display: none;
   }
-  .position-re_2-translate-y {
+  .position-re_2-translate {
     transform: translateY(-10px);
   }
 }
@@ -73,5 +68,8 @@
   .postion-re_2 {
     position: absolute;
     top: 0px;
+  }
+  .position-re_2-translate {
+    transform: translateX(2.5vw);
   }
 }

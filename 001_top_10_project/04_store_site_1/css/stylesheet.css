@@ -9,10 +9,17 @@
 @import "components/all_position.css";
 @import "components/all_topbar.css";
 /* single */
-@import "index.css";
+@import "header_main.css";
+@import "header_sub.css";
+@import "header_advertise.css";
+
 body {
-  padding: inherit;
-  margin: inherit;
   font-family: "Open Sans", sans-serif;
 }
-/* profile */
+.basic-margin {
+  margin: 5vh 5vw;
+}
+/* main_header 마진 조정 시 에러 방지 새로운 basic_margin 생성 */
+.basic-margin_2 {
+  margin: 2vh 5vw;
+}
