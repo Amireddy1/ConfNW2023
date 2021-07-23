@@ -1,0 +1,7 @@
+@media screen {
+  .position-re_1 > .nav_topbar__clmn > p,
+  .position-re_2 > .nav_topbar__clmn > p,
+  .main_header__box > div {
+    background-color: salmon;
+  }
+}

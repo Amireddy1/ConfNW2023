@@ -46,6 +46,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  /* animation */
+  transition: var(--animation-linear-07--);
+}
+.nav_topbar__clmn > p:hover {
+  color: var(--nav_topbar_color-hover--);
+  background-color: var(--nav_topbar_background-hover--);
 }
 .nav_topbar__clmn > p > a {
   color: inherit;

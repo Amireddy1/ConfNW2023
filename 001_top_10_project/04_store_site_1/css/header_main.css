@@ -35,6 +35,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  /* animation */
+  transition: var(--animation-linear-07--);
+}
+.main_header__box > div:hover {
+  color: var(--nav_topbar_color-hover--);
+  background-color: var(--nav_topbar_background-hover--);
 }
 /* for margin divv:first-child */
 .main_header__box > div:first-child {
@@ -87,10 +93,10 @@
   margin-right: 0;
 }
 .main_header__clmn:nth-child(2) > .main_header__box > div > p:nth-child(1) {
-  font-size: 23px;
+  font-size: 50px;
 }
 .main_header__clmn:nth-child(2) > .main_header__box > div > p:nth-child(2) {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 700px) {
@@ -134,6 +140,12 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    /* animation */
+    transition: var(--animation-linear-07--);
+  }
+  .main_header__clmn:nth-child(2) > .main_header__box > div:hover {
+    color: var(--nav_topbar_color-hover--);
+    background-color: var(--nav_topbar_background-hover--);
   }
   /* for margin */
   .main_header__clmn:nth-child(2) > .main_header__box > div:nth-child(1) {
@@ -141,10 +153,10 @@
     margin-right: 1vw;
   }
   .main_header__clmn:nth-child(2) > .main_header__box > div > p:nth-child(1) {
-    font-size: 23px;
+    font-size: 45px;
   }
   .main_header__clmn:nth-child(2) > .main_header__box > div > p:nth-child(2) {
-    font-size: 14px;
+    font-size: 17px;
   }
   @media screen and (max-width: 501px) {
     .main_header {
@@ -158,7 +170,7 @@
     }
   }
 }
-@media screen and (min-width: 700px) and (max-width: 100vw) {
+@media screen and (min-width: 701px) and (max-width: 100vw) {
   /* 해당 조건 충족 시, 가로로 flex 박스 두개를 정렬하는데 mbasic-margin 속성값이 중복되어 여백이 생긴다. 이를 제거한다. */
   .basic-margin:nth-child(1) {
     margin: 2vh 0vw 2vh 5vw;
