@@ -1,0 +1,24 @@
+/* reset */
+@import "reset.css";
+/* root */
+@import "root.css";
+/* components */
+@import "components/back.css";
+@import "components/profile.css";
+@import "components/position.css";
+@import "components/all_btn.css";
+@import "components/all_nav_clmn.css";
+@import "components/all_nav_title_box.css";
+
+/* single */
+@import "index.css";
+
+body {
+  /* size */
+  height: 300vh;
+  /* padding margin */
+  padding: inherit;
+  margin: inherit;
+  font-family: "Open Sans", sans-serif;
+}
+/* profile */

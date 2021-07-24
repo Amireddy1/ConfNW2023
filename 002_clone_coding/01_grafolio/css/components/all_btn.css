@@ -1,0 +1,44 @@
+.btn_mini-fix,
+.btn_mid-fix,
+.btn_big-fix {
+  border: var(--border--);
+  background-color: lightskyblue;
+  /* display */
+  display: flex;
+  align-items: center;
+}
+.btn_mini-fix {
+  width: 28px;
+  height: 28px;
+}
+.btn_mid-fix {
+  width: 38px;
+  height: 38px;
+}
+.btn_big-fix {
+  width: 48px;
+  height: 48px;
+}
+
+.btn_mini-flex,
+.btn_mid-flex,
+.btn_big-flex {
+  background-color: lightslategray;
+  border: var(--border--);
+  /* display */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.btn_mini-flex {
+  width: 28px;
+  height: 28px;
+}
+.btn_mid-flex {
+  width: 38px;
+  height: 38px;
+}
+.btn_big-flex {
+  width: 48px;
+  height: 48px;
+}

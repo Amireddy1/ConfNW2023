@@ -1,0 +1,22 @@
+.nav_clmn-between,
+.nav_clmn-around,
+.nav_clmn-left {
+  /* border */
+  border: var(--border--);
+  background-color: lightsalmon;
+  /* size */
+  width: auto;
+  height: 30px;
+  /* display */
+  display: flex;
+  align-items: center;
+}
+.nav_clmn-between {
+  justify-content: space-between;
+}
+.nav_clmn-around {
+  justify-content: space-around;
+}
+.nav_clmn-left {
+  justify-content: left;
+}
