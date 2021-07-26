@@ -1,0 +1,24 @@
+#index-header_mini {
+  height: 18vh;
+  background-color: rgb(146, 146, 211);
+}
+#index-main-big {
+  height: 52vh;
+}
+
+.background-animation__001__Gradient {
+  background: linear-gradient(-45deg, #add6dd, #bedbae, #90bccc, #78bdad);
+  animation: gradient 10s ease-in-out infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -4,10 +4,15 @@
 @import "root.css";
 /* components */
 @import "components/back.css";
+@import "components/nav_top.css";
+@import "components/nav_bottom.css";
 @import "components/profile.css";
 @import "components/position.css";
 /* single */
 @import "index.css";
+@import "index_header.css";
+@import "index_header_mini.css";
+@import "index_main.css";
 
 body {
   padding: inherit;

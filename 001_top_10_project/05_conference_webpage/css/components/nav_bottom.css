@@ -1,0 +1,40 @@
+/* header */
+/* 기본 요소는 nav_top.css 에 존재 */
+/*  아래 값 초기화 적용
+    .nav_row
+    .nav_clmn_left
+    .nav_clmn_right
+    .nav_button
+*/
+#nav_bottom {
+  height: 10vh;
+}
+#nav_bottom > .nav_row > .nav_clmn_left {
+  border: none;
+  font-size: 16px;
+  font-weight: 300;
+  justify-content: left;
+}
+#nav_bottom > .nav_row > .nav_clmn_right {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+#nav_bottom > .nav_row > .nav_clmn_left > span,
+#nav_bottom > .nav_row > .nav_clmn_right > a > button {
+  transform: translateY(20px);
+}
+#nav_bottom > .nav_row > .nav_clmn_left > span {
+  color: var(--color-footer--);
+}
+#nav_bottom > .nav_row > .nav_clmn_left,
+#nav_bottom > .nav_row > .nav_clmn_right {
+  height: none;
+}
+
+#nav_bottom > .nav_row > .nav_clmn_right > a > button {
+  transition: transform 0.3s linear;
+}
+#nav_bottom > .nav_row > .nav_clmn_right > a > button:hover {
+  transform: scale(1.3);
+}

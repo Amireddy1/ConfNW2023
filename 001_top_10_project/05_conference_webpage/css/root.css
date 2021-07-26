@@ -1,0 +1,20 @@
+:root {
+  /* font */
+  --color-title--: white;
+  --color-button--: white;
+  --color-weather--: rgba(179, 223, 241, 0.6);
+  --color-header-title--: rgba(179, 223, 241, 0.6);
+  --color-header-subtitle--: white;
+  --color-footer--: rgba(179, 223, 241, 0.6);
+
+  /* background */
+  --back--: rgba(233, 233, 233, 0.7);
+  --back-strong--: rgba(146, 146, 146, 1);
+
+  --border--: 5px solid rgba(244, 252, 255, 0.6);
+  --border-radius--: 5px;
+
+  --background-color-basic--: rgb(16, 59, 78);
+  --background-color-clmn--: wheat;
+  --background-color-clmn-hover--: rgb(192, 167, 121);
+}
