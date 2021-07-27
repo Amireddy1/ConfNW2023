@@ -3,18 +3,32 @@
   --color-title--: white;
   --color-button--: white;
   --color-weather--: rgba(179, 223, 241, 0.6);
-  --color-header-title--: rgba(179, 223, 241, 0.6);
+  --color-header-title--: rgba(24, 96, 124, 0.6);
+  --color-header-description--: rgba(17, 79, 104, 0.8);
+
   --color-header-subtitle--: white;
   --color-footer--: rgba(179, 223, 241, 0.6);
+
+  --color-schedule-light--: rgba(146, 146, 146, 1);
+  --color-schedule-strong--: rgb(49, 49, 49);
+  --color-schedule-title--: rgb(61, 61, 61);
+
+  --color-register-light--: rgba(146, 146, 146, 1);
+  --color-register-strong--: rgb(49, 49, 49);
+  --color-register-title--: rgb(61, 61, 61);
 
   /* background */
   --back--: rgba(233, 233, 233, 0.7);
   --back-strong--: rgba(146, 146, 146, 1);
 
   --border--: 5px solid rgba(244, 252, 255, 0.6);
-  --border-radius--: 5px;
+  --border--: 1px solid rgba(0, 0, 0, 0.6);
+  --border-radius--: 10px;
 
   --background-color-basic--: rgb(16, 59, 78);
   --background-color-clmn--: wheat;
   --background-color-clmn-hover--: rgb(192, 167, 121);
+  /* animation */
+  --animation-standard--: 0.3s linear;
+  --animation-hover--: rgba(229, 239, 245, 1);
 }

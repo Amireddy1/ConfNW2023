@@ -1,24 +1,48 @@
 #index-header_mini {
   height: 18vh;
   background-color: rgb(146, 146, 211);
+  /* font */
+
+  /* display */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #index-main-big {
   height: 52vh;
 }
 
 .background-animation__001__Gradient {
-  background: linear-gradient(-45deg, #add6dd, #bedbae, #90bccc, #78bdad);
-  animation: gradient 10s ease-in-out infinite;
+  background: linear-gradient(-30deg, #95c1c9, #c1d4dd, #a2ccdb, #78bdad);
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+#index-header_title,
+#index-header_description {
+  /* size */
+  width: 100%;
+  height: 50%;
+  /* font */
+  text-align: center;
+  /* display */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#index-header_title {
+  /* font */
+  color: var(--color-header-title--);
+  font-size: 30px;
+  font-weight: 600;
+  /* display */
+}
+#index-header_description {
+  /* font */
+  color: var(--color-header-description--);
+  font-size: 15px;
+  line-height: 25px;
+  /* dlsiplay */
+  align-items: flex-start;
+  justify-content: center;
 }

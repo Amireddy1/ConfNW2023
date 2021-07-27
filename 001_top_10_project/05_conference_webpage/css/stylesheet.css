@@ -13,6 +13,11 @@
 @import "index_header.css";
 @import "index_header_mini.css";
 @import "index_main.css";
+@import "index_speaker.css";
+@import "index_schedule.css";
+@import "index_venue.css";
+@import "index_register.css";
+@import "index_button.css";
 
 body {
   padding: inherit;

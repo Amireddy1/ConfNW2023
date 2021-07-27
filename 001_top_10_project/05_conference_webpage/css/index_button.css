@@ -1,0 +1,28 @@
+#index-button-back,
+#index-button {
+  /* size */
+  width: 150px;
+  height: 33px;
+  /* design */
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  /* font */
+  color: rgba(151, 151, 151, 1);
+  font-size: 14px;
+  text-shadow: var(--shadow-blck-4--);
+  /* animation */
+  transition: all 0.4s linear;
+}
+#index-button:hover,
+#index-button-back:hover {
+  /* desing */
+  background-color: var(--color-header-description--);
+  /* font */
+  color: rgb(255, 255, 255);
+}
+
+#index-button-back-a {
+  /* position */
+  top: 10px;
+  left: 10px;
+}
