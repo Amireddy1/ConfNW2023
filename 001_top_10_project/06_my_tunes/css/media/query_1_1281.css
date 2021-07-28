@@ -1,0 +1,14 @@
+/* PC targeting*/
+/* 일반 Site */
+body {
+  background-color: red;
+}
+.nav_clmn {
+  width: 50%;
+}
+.main_clmn-design {
+  padding: 20% 2%;
+  /* display */
+  display: flex;
+  flex-direction: column;
+}

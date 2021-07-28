@@ -1,0 +1,15 @@
+/* Tablet 세로모드 */
+/* 2개의 Column */
+body {
+  background-color: green;
+}
+.nav_clmn {
+  width: 60%;
+}
+.main_clmn-design {
+  padding: 20% 20%;
+  /* display */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <link rel="stylesheet" href="06_my_tunes/css/stylesheet.css"/>
+        <title>Document</title>
+        <!-- <style>
+            @import url(06_my_tunes/css/media/query_1_1281.css) screen and (min-width: 1281px); /* PC trageting */
+            @import url(06_my_tunes/css/media/query_2_1025.css) screen and (min-width: 1025px) and (max-width: 1280px); /* 3 Column*/
+            @import url(06_my_tunes/css/media/query_3_768.css) screen and (min-width: 768px) and (max-width: 1024px); /* 3 Column*/
+            @import url(06_my_tunes/css/media/query_5_481.css) screen and (min-width: 481px) and (max-width: 767px); /* 2 Column */
+            @import url(06_my_tunes/css/media/query_6_320.css) screen and (min-width: 320px) and (max-width: 480px); /* 1 Column*/
+        </style> -->
+    </head>
+    <body>
+        <div class="nav-basic"> <!--Mobile 에서는 버튼 다 숨길까?-->
+            <div class="nav_clmn">
+                <a href="#" class="nav_button-anchor"><button id="nav_button-query_1" class="nav_button">myTunes</button></a><!--우선순위 1-->
+                <a href="#" class="nav_button-anchor"><button id="nav_button-query_2" class="nav_button">Overview</button></a><!--우선순위 2-->
+                <a href="#" class="nav_button-anchor"><button id="nav_button-query_3" class="nav_button">Music</button></a><!--우선순위 3-->
+                <a href="#" class="nav_button-anchor"><button id="nav_button-query_4" class="nav_button">Video</button></a><!--우선순위 4-->
+                <a href="#" class="nav_button-anchor"><button id="nav_button-query_5" class="nav_button">Gift Cards</button></a><!--우선순위 5-->
+            </div>
+        </div>
+
+        <main id="main_clmn"><!--clmn flex-direction 1~3까지 조절해서 설정-->
+            <div id="main_clmn_header" class="main_clmn-design">
+                <h1>myTunes</h1>
+                <h3>Your Music, movies, and Tv shows take center stage.</h3>
+                <h6>myTunes is the best way to organize and enjoy the music, movies, and TV shows you already have — and shop for the ones you want. Enjoy all the entertainment myTunes has to offer on your Mac and PC.</h6>
+            </div>
+            <div id="main_clmn_music" class="main_clmn-design">
+                <h1>Music</h1>
+                <h3>45 million songs. Zero ads.</h3>
+                <h4>Streaming all songs, ad-free. Or download albums and tracks.</h4>
+                <h5>Stream over 45 million songs, ad-free. Or download albums and tracks to listen to offline. All the music in your personal myTunes library — no matter where it came from — lives right alongside the Orange Music catalog. Start your free three-month trial with no commitment, and cancel anytime.</h5>
+                <button>Start Your Trial.Now</button>
+            </div>
+            <div id="main_clmn_video" class="main_clmn-design">
+                video</div>
+            <div id="main_clmn_advertise" class="main_clmn-design">
+                advertise</div>
+            <div id="main_clmn_giftcard" class="main_clmn-design">
+                Gift Card</div>
+            <div id="main_nav-bottom" class="main_clmn-design">
+                Shop & Learn</div>
+            <div id="main_footer-bottom" class="main_clmn-design">
+                Copyright ⓒ 2021 Dark My Tunes</div>
+        </main>
+    </body>
+</html>

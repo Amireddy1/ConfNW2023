@@ -1,0 +1,34 @@
+:root {
+  /* nav */
+  --nav-color--: rgb(161, 161, 161);
+  --nav-color-hover--: darkgrey;
+
+  --nav--back--: rgb(68, 68, 68);
+  --nav--back-hover: darkgrey;
+
+  /* main-dark */
+  --main-dark-color--: rgb(221, 221, 221);
+  --main-dark-color-hover--: darkgrey;
+
+  --main-dark-back--: rgb(53, 53, 53);
+  --main-dark-back-hover--: darkgrey;
+
+  /* main-light */
+  --main-light-color--: rgb(53, 53, 53);
+  --main-light-back--: rgb(221, 221, 221);
+
+  /* footer */
+  --footer-color--: var(--nav-color--);
+  --footer-back--: var(--nav--back--);
+
+  /* background */
+  --back--: rgb(68, 68, 68);
+  --back-strong--: rgb(49, 49, 49);
+
+  /* border */
+  --border--: 1px solid rgba(144, 144, 144, 0.7);
+  --border-radius--: 5px;
+
+  /* animation */
+  --animation-linear--: all 0.3s linear;
+}
