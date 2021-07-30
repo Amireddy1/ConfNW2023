@@ -1,0 +1,242 @@
+#index-grid div, #index-grid div:last-child box {
+  color: white;
+}
+
+#index-grid div, #index-grid div:last-child box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#index-grid div h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+#index-grid div h3 {
+  width: 80%;
+  font-size: 22px;
+  margin-bottom: 22px;
+}
+
+#index-grid div h5 {
+  width: 80%;
+  max-width: 1100px;
+  font-size: 17px;
+  line-height: 32px;
+}
+
+#index-grid div h6 {
+  width: 80%;
+  max-width: 1100px;
+  margin-bottom: 12px;
+  font-size: 12px;
+  line-height: 27px;
+}
+
+nav button, #index-grid div button {
+  width: auto;
+  height: 40px;
+  margin: 0 0 0 10px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  background-color: inherit;
+}
+
+nav button, #index-grid div:nth-child(2) button, #index-grid div:nth-child(3) button, #index-grid div:last-child box:nth-child(2) button, #index-grid div:last-child box:nth-child(3) ui button {
+  -webkit-transition: background-color 0.3s linear, -webkit-transform;
+  transition: background-color 0.3s linear, -webkit-transform;
+  transition: transform, background-color 0.3s linear;
+  transition: transform, background-color 0.3s linear, -webkit-transform;
+}
+
+nav button:hover, #index-grid div:nth-child(2) button:hover, #index-grid div:nth-child(3) button:hover, #index-grid div:last-child box:nth-child(2) button:hover, #index-grid div:last-child box:nth-child(3) ui button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: #535353;
+}
+
+body {
+  height: auto;
+  background-color: lightcoral;
+}
+
+nav {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #333333;
+}
+
+nav button:nth-child(1) {
+  margin: 0 0 0 20px;
+}
+
+#index-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (100%)[fit-full];
+      grid-template-columns: repeat(fit-full, 100%);
+  -ms-grid-rows: (100vh)[4];
+      grid-template-rows: repeat(4, 100vh);
+  background-color: none;
+}
+
+#index-grid div {
+  width: 100%;
+  height: 100vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#index-grid div h1 svg {
+  z-index: -2;
+  width: 50px;
+  -webkit-transform: translateX(15px) translateY(5px);
+          transform: translateX(15px) translateY(5px);
+}
+
+#index-grid div img {
+  width: 70%;
+  max-width: 1100px;
+  height: 50%;
+  max-height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#index-grid div:nth-child(1) {
+  background-color: #010101;
+}
+
+#index-grid div:nth-child(2) {
+  background-color: #252529;
+}
+
+#index-grid div:nth-child(2) h5 {
+  margin-bottom: 22px;
+}
+
+#index-grid div:nth-child(2) button {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  background-color: red;
+}
+
+#index-grid div:nth-child(3) {
+  background-color: #f4f4f4;
+  color: black;
+}
+
+#index-grid div:nth-child(3) h5 {
+  margin-bottom: 22px;
+}
+
+#index-grid div:nth-child(3) button {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  background-color: blue;
+}
+
+#index-grid div:last-child {
+  background-color: #333333;
+}
+
+#index-grid div:last-child box:nth-child(1) {
+  margin: 0 0 50px 0;
+}
+
+#index-grid div:last-child box:nth-child(2) {
+  margin: 0 0 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: left;
+}
+
+#index-grid div:last-child box:nth-child(2) column:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#index-grid div:last-child box:nth-child(2) column:nth-child(1) img {
+  margin: 0 40px 0 0;
+  opacity: 0.5;
+}
+
+#index-grid div:last-child box:nth-child(2) button {
+  height: 30px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+#index-grid div:last-child box:nth-child(3) {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#index-grid div:last-child box:nth-child(3) h3 {
+  padding: 0 0 10px 0;
+  height: auto;
+  border-bottom: 1px solid black;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#index-grid div:last-child box:nth-child(3) ui {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#index-grid div:last-child box:nth-child(3) ui list {
+  margin: 0 0 0 10px;
+}
