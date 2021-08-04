@@ -1,0 +1,46 @@
+@import "_variable.scss";
+@import "_extend.scss";
+@import "_animation.scss";
+
+// component
+svg {
+  width: 30px;
+}
+
+body {
+  #nav_left {
+    // basic div
+    @extend %settigns-nav_left;
+    > div {
+      @extend %settings-nav_div;
+      @extend %settings-button;
+    }
+    > div:hover {
+      @extend %settings-nav_div-hover;
+    }
+    // basic logo
+    > #nav_site_logo {
+      @extend %setitngs-nav_logo;
+      @extend %settings-logo;
+    }
+    > #nav_site_logo:hover {
+      color: initial;
+      background-color: initial;
+    }
+    @media screen and (max-width: 800px) {
+      > div:last-child {
+        border-bottom: 2.5px solid $nav_border_boundary;
+      }
+    }
+    @extend %settings-nav_folding;
+  }
+  #index_main {
+    @extend %settings-main;
+    .index_main_column {
+      @extend %settings-main_column;
+      .index_content {
+        @extend %settings-content;
+      }
+    }
+  }
+}
