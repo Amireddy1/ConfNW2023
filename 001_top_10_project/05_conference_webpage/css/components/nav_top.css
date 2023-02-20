@@ -8,24 +8,23 @@
 }
 #nav_bottom,
 #nav_top {
-  height: 20vh;
+  height: fit-content;
   justify-content: center;
-
   background-color: var(--background-color-basic--);
 }
 .nav_clmn_left {
 }
 
 .nav_row {
-  width: 800px;
+  width: 1000px;
   flex-direction: row;
   justify-content: space-between;
 }
 .nav_clmn_left,
 .nav_clmn_right {
-  width: 18%;
+  width: 10%;
   align-items: top;
-  line-height: 30px;
+  line-height: 35px;
   color: var(--color-title--);
 }
 .nav_clmn_left {

@@ -11,7 +11,7 @@
 #header_row {
   /* size */
   width: 800px;
-  height: 25vh;
+  height: fit-content;
   /* font */
   text-align: center;
   /* display */

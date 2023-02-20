@@ -1,5 +1,5 @@
 #index-header_mini {
-  height: 18vh;
+  height: fit-content;
   background-color: rgb(146, 146, 211);
   /* font */
 
@@ -13,7 +13,9 @@
 }
 
 .background-animation__001__Gradient {
-  background: linear-gradient(-30deg, #95c1c9, #c1d4dd, #a2ccdb, #78bdad);
+  background: linear-gradient(-30deg, #f2f8f9, #c1d4dd, #a2ccdb, #78bdad);
+}
+.background-animation{
 }
 
 #index-header_title,

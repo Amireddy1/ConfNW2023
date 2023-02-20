@@ -9,10 +9,13 @@
 /* set */
 #index-main {
   height: 50vh;
-  justify-content: center;
+  justify-content: right;
+}
+.row:after{
+  contain: "";
 }
 .main_row {
-  width: 800px;
+  width: 320px;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -21,9 +24,9 @@
 .main_row_right {
   /* z-index */
   /* size */
-  width: 30%;
+  width: 50%;
   flex-direction: column;
-  align-items: center;
+  align-items: right;
   justify-content: flex-start;
 
   /* transition */

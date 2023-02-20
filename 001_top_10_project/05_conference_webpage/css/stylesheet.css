@@ -18,6 +18,7 @@
 @import "index_venue.css";
 @import "index_register.css";
 @import "index_button.css";
+@import "sec-main.css";
 
 body {
   padding: inherit;
