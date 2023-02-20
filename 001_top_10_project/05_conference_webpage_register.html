@@ -5,25 +5,30 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>05 Conference - Register</title>
+        <title>05 Conference - Index</title>
         <link rel="stylesheet" href="05_conference_webpage/css/stylesheet.css"/>
     </head>
     <body class="position-relative">
         <div id="nav_top">
             <div class="nav_row">
+                <ul>
+                    <li id="b-logo">
+                      <img id="brand-logo" class="hide-on-med-and-down" src="05_conference_webpage/img/logo.jpg" Width="60" height="64">
+                    </li>
+                  </ul>
                 <div class="nav_clmn_left">
-                    <h1>STYLES<br>CONFERENCE</h1>
+                    <h1>Northwest Missouri State University </h1>
                 </div>
                 <div class="nav_clmn_right">
                     <div id="nav_clmn_right_row_top">
-                        <span> August 24–26th — Chicago, IL</span>
+                        
                     </div>
                     <div id="nav_clmn_right_row_bottom">
-                        <a href="05_conference_webpage_index.html"><button class="nav_button">HOME</button></a>
-                        <a href="05_conference_webpage_speakers.html"><button class="nav_button">SPEAKERS</button></a>
-                        <a href="05_conference_webpage_schedule.html"><button class="nav_button">SCHEDULE</button></a>
-                        <a href="05_conference_webpage_venue.html"><button class="nav_button">VENUE</button></a>
-                        <a href="#"><button class="nav_button">REGISTER</button></a>
+                        <a href="#"><button class="nav_button">Home</button></a>
+                        <a href="05_conference_webpage_speakers.html"><button class="nav_button">Paper Submission</button></a>
+                        <a href="05_conference_webpage_schedule.html"><button class="nav_button">Program Committee</button></a>
+                        <a href="05_conference_webpage_venue.html"><button class="nav_button">Venue</button></a>
+                        <a href="05_conference_webpage_register.html"><button class="nav_button">Contact</button></a>
                     </div>
                 </div>
             </div>
@@ -32,51 +37,23 @@
         <!-- header -->
         <div id="index-header_mini" class="background-animation__001__Gradient">
             <div id="index-header_title">Register</div>
-            <div id="index-header_description">매년 저희는 믿을 수 없는 경험들을 제공해드리고 있습니다.<br>지금 가입해, 우리의 Web Conference 에 참가하여 더욱 많은 것들을 경험하세요.</div>
+            <div id="index-header_description">ConfNW2023 </div>
         </div>
         
         <!-- main -->
         <div id="index-register-big">
             <div id="index-register-row">
-                <div id="index-register-big_1">
-                    <h1>Purchase a Conference Pass</h1>
-                    <h4>$99 PER PASS</h4>
-                    <h3>Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchsed within the same order, so feel free to bring a friend or two along. Once your order is finished we'll follow up and provide a receipt for your purchase. See you soon!</h3>
-                    <h2>Why Attend?</h2>
-                    <ul>
-                        <li>▫ Over twenty world-class speakers</li>
-                        <li>▫ One full day of workshops and two full days of presentations</li>
-                        <li>▫ Hosted at The Chicago Teatre, a historical landmark</li>
-                        <li>▫ August in Chicago is simply amazing</li>
-                    </ul>
-                </div>
                 <form id="index-register-big_2">
-                    <label for="index-register_name">Name</label>
+                    <label for="index-register_name">First name</label>
+                    <input required id="index-register_name"type="text">
+                    <label for="index-register_name">Last name</label>
                     <input required id="index-register_name"type="text">
                     <label for="index-register_email">Email</label>
                     <input required id="index-register_email"type="text">
-                    <label for="index-register_reccomendation">Reccomendation</label>
-                    <input id="index-register_reccomendation"type="text">
-                    <label for="index-register_comments">Comments</label>
-                    <input id="index-register_comments"type="text">
+                    <label for="index-register_email">Institution's affiliation </label>
+                    <input required id="index-register_email"type="text">
                     <input id="index-register_submit" type="submit">
                 </form>
-            </div>
-        </div>
-
-
-        <div id="nav_bottom" class="back-blue">
-            <div class="nav_row">
-                <div class="nav_clmn_left">
-                    <span>© Styles Conference</span>
-                </div>
-                <div class="nav_clmn_right">
-                    <a href="05_conference_webpage_index.html"><button class="nav_button">HOME</button></a>
-                    <a href="05_conference_webpage_speakers.html"><button class="nav_button">SPEAKERS</button></a>
-                    <a href="05_conference_webpage_schedule.html"><button class="nav_button">SCHEDULE</button></a>
-                    <a href="05_conference_webpage_venue.html"><button class="nav_button">VENUE</button></a>
-                    <a href="#"><button class="nav_button">REGISTER</button></a>
-                </div>
             </div>
         </div>
         <script src="05_conference_webpage/js/base.js"></script>

@@ -23,9 +23,9 @@
 }
 .nav_clmn_left,
 .nav_clmn_right {
-  width: 30%;
-  align-items: center;
-  line-height: 40px;
+  width: 18%;
+  align-items: top;
+  line-height: 30px;
   color: var(--color-title--);
 }
 .nav_clmn_left {
@@ -36,7 +36,7 @@
   /* display */
   text-align: left;
   justify-content: center;
-  flex-shrink: 0; /* 크기가 절대 줄어들지 않음*/
+  flex-shrink: 0; 
 }
 .nav_clmn_left > h1 {
   /* transition */
