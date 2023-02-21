@@ -8,23 +8,24 @@
 
 /* set */
 #index-main {
-  height: 50vh;
-  justify-content: right;
+  height: fit-content;
+  justify-content: center;
 }
 .row:after{
   contain: "";
 }
 .main_row {
-  width: 320px;
+  width: 1250px;
   flex-direction: row;
   justify-content: space-between;
+  align-items: right;
 }
 .main_row_left,
 .main_row_middle,
 .main_row_right {
   /* z-index */
   /* size */
-  width: 50%;
+  width: 100%;
   flex-direction: column;
   align-items: right;
   justify-content: flex-start;
@@ -64,8 +65,9 @@
   /* design */
   background-color: red;
 }
-.mian_row > div > a {
+.main_row > div > a {
   text-decoration: inherit;
+  line-height: 30px;
 }
 .main_row > div > a > button {
   /* margin */

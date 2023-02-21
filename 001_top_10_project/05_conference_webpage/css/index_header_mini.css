@@ -1,21 +1,18 @@
 #index-header_mini {
-  height: fit-content;
-  background-color: rgb(146, 146, 211);
+  height: 35vh;
+  background-color: rgb(229, 229, 243);
   /* font */
 
   /* display */
-  display: flex;
+  display: flaex;
   flex-direction: column;
   align-items: center;
 }
 #index-main-big {
   height: 52vh;
 }
-
 .background-animation__001__Gradient {
-  background: linear-gradient(-30deg, #f2f8f9, #c1d4dd, #a2ccdb, #78bdad);
-}
-.background-animation{
+  background: linear-gradient(-30deg, #eff2f2, #c5dae9, #91bbcc, #f2f3f5);
 }
 
 #index-header_title,
@@ -34,7 +31,7 @@
 
 #index-header_title {
   /* font */
-  color: var(--color-header-title--);
+  color: rgb(57, 10, 212);
   font-size: 30px;
   font-weight: 600;
   /* display */
